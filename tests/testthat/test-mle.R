@@ -83,7 +83,7 @@ test_that("Gradient = 0 at MLE.", {
     if(calc.grad) {
       MaxGrad[ii] <- max(abs(ld.grad))
     } else {
-      expect_equal(max(abs(ld.grad)),0,tolerance = 1e-6)
+      expect_equal(max(abs(ld.grad)),0,tolerance = 2e-6)
     }
   }
 })

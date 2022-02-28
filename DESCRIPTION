@@ -1,8 +1,8 @@
 Package: LMN
 Type: Package
 Title: Inference for Linear Models with Nuisance Parameters
-Version: 1.1.1
-Date: 2022-02-11
+Version: 1.1.2
+Date: 2022-02-25
 Authors@R: c(person("Martin", "Lysy",
                     email = "mlysy@uwaterloo.ca", role = c("aut", "cre")),
              person("Bryan", "Yates", role = "aut"))
@@ -18,9 +18,9 @@ Suggests: testthat, numDeriv, mniw, knitr, rmarkdown, bookdown,
         kableExtra
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2022-02-14 18:08:06 UTC; mlysy
+Packaged: 2022-02-25 13:06:37 UTC; mlysy
 Author: Martin Lysy [aut, cre],
   Bryan Yates [aut]
 Maintainer: Martin Lysy <mlysy@uwaterloo.ca>
 Repository: CRAN
-Date/Publication: 2022-02-15 19:10:02 UTC
+Date/Publication: 2022-02-28 10:00:10 UTC
