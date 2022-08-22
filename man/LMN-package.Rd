@@ -28,7 +28,7 @@ The model above is referred to as a Linear Model with Nuisance parameters (LMN) 
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/mlysy/LMN/}
+  \item \url{https://github.com/mlysy/LMN}
   \item Report bugs at \url{https://github.com/mlysy/LMN/issues}
 }
 

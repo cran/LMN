@@ -9,7 +9,7 @@
 #' @example examples/lmn_prof.R
 #' @export
 lmn_prof <- function(suff, noSigma = FALSE) {
-  if(class(suff) != "lmn_suff") {
+  if(!inherits(suff, "lmn_suff")) {
     stop("suff must be an object of class 'lmn_suff'.")
   }
   n <- suff$n

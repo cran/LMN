@@ -8,7 +8,7 @@
 #' @example examples/lmn_marg.R
 #' @export
 lmn_marg <- function(suff, prior, post) {
-  if(class(suff) != "lmn_suff") {
+  if(!inherits(suff, "lmn_suff")) {
     stop("suff must be an object of class 'lmn_suff'.")
   }
   n <- suff$n

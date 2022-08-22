@@ -7,7 +7,7 @@
 #' @example examples/lmn_loglik.R
 #' @export
 lmn_loglik <- function(Beta, Sigma, suff) {
-  if(class(suff) != "lmn_suff") {
+  if(!inherits(suff, "lmn_suff")) {
     stop("suff must be an object of class 'lmn_suff'.")
   }
   # get sufficient statistics for likelihood evaluation

@@ -26,10 +26,6 @@ The Matrix-Normal Inverse-Wishart (MNIW) distribution \eqn{(\boldsymbol{B}, \bol
 \end{array}
 }{
 \Sigma ~ Inverse-Wishart(\Psi, \nu)
-}
-\deqn{
-\vspace{-1em}
-}{
 B | \Sigma ~ Matrix-Normal(\Lambda, \Omega^{-1}, \Sigma),
 }
 where the Matrix-Normal distribution is defined in \code{\link[=lmn_suff]{lmn_suff()}}.

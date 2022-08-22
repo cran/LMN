@@ -17,7 +17,7 @@
 #' @example examples/lmn_post.R
 #' @export
 lmn_post <- function(suff, prior) {
-  if(class(suff) != "lmn_suff") {
+  if(!inherits(suff, "lmn_suff")) {
     stop("suff must be an object of class 'lmn_suff'.")
   }
   n <- suff$n
